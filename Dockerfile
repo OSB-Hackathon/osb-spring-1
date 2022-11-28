@@ -5,5 +5,5 @@ COPY . /app
 
 RUN mvn package
 
-EXPOSE 8080
+EXPOSE 3000
 ENTRYPOINT ["java", "-jar", "/app/target/swagger-spring-1.0.0.jar"]
